@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['*help','Carlos Tha Best'];
+    var setGame = ['ahelp مساعده','Carlos Tha Best'];
     var i = -1;
     var j = 0;
     setInterval(function (){
