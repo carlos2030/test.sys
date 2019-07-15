@@ -304,7 +304,7 @@ client.on('message', function(msg) {
             .addField('``Users``' ,`[ ${client.users.size} ]` , true)
             .addField('``My Name``' , `[ ${client.user.tag} ]` , true)
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
-			      .addField('``My Prefix``' , `[ ! ]` , true)
+			      .addField('``My Prefix``' , `[ a ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
 			      .setFooter('By | 3bker')
     })
@@ -1910,7 +1910,7 @@ client.on('guildDelete', guild => {
   Server Kicked 3bker Community © :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("474127377245667328").sendEmbed(embed)
+client.channels.get("510106273476247562").sendEmbed(embed)
 });
 var type = [
     {
